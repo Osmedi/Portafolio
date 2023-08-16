@@ -16,6 +16,7 @@ header {
 }
 .encabezado h1{
 	color: #5bfb4f;
+	border-bottom: 1px solid #5bfb4f;
 }
 .acercademi .detalles{
 	display: inline-flex;
@@ -68,6 +69,20 @@ header {
 	padding-left:15px;
 	margin-top:-10px;	
 }
+@media screen and (max-width:800px ){
+	.acercademi .detalles{
+		display: inline-block;
+		margin-left: 50px;
+	}
+	.acercademi .card {
+		border: 1px solid #ffffff46;
+		width: 50%;
+		border-radius: 10px;
+		backdrop-filter: sepia(90%);
+		cursor: pointer;
+		margin-bottom: 22px;
+	}
+}  
 
 /* Estilos del pie de página */
 footer{
