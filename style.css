@@ -59,6 +59,10 @@ header {
 	border-radius:5px 0px 0px 5px;
 	padding-left: 5px;
 }
+.project-card img:hover{
+	scale: 1.4;
+	transition: 1s;
+}
 
 .project-description {
 	padding:20px;
