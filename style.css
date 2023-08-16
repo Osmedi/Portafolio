@@ -90,7 +90,11 @@ header {
 }
 #skills ul img{
 	padding-left: 25px;
-
+}
+@media screen and (max-width:800px ){
+	#skills ul img{
+		width: 15%;
+	}
 }
 #skills ul img:hover{
 	scale: 1.5;
