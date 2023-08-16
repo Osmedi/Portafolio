@@ -62,12 +62,24 @@ header {
 
 	flex-grow:1; 
 }
+.project-description a{
+	text-decoration: none;
 
+}
 /* Estilos de la sección de habilidades */
 #skills ul {
 	list-style-type:none;
-	padding-left:15px;
-	margin-top:-10px;	
+	padding-left:30px;
+	display: flex;
+	cursor: pointer;
+}
+#skills ul img{
+	padding-left: 25px;
+
+}
+#skills ul img:hover{
+	scale: 1.5;
+	transition: 0.5s;
 }
 @media screen and (max-width:800px ){
 	.acercademi .detalles{
