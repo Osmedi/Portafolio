@@ -74,8 +74,8 @@ header {
 @media screen and (max-width:800px ){
 	.project-card {
 		display: block;
-		width: 45%;
-		margin-left: 180px;
+		width: 76.5%;
+		margin-left: 50px;
 	}
 
 }
