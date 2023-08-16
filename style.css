@@ -54,9 +54,10 @@ header {
 	transition: 1s;
 }
 .project-card img {
-	width:200px;
+	width:300px;
 	height:auto;
 	border-radius:5px 0px 0px 5px;
+	padding-left: 5px;
 }
 
 .project-description {
@@ -68,6 +69,14 @@ header {
 }
 .project-description a{
 	text-decoration: none;
+
+}
+@media screen and (max-width:800px ){
+	.project-card {
+		display: block;
+		width: 45%;
+		margin-left: 180px;
+	}
 
 }
 /* Estilos de la sección de habilidades */
