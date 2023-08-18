@@ -119,7 +119,7 @@ header {
 }
 @media screen and (max-width:800px ){
 	#skills ul img{
-		width: 15%;
+		width: 10%;
 	}
 }
 #skills ul img:hover{
